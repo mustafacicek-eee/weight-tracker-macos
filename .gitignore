@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Build output (app, binary, test PDF)
+build/
+*.app
+*.pdf
+*.log
+
+# Never commit weight data or exports
+*.json
+*.csv

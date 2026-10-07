@@ -1,0 +1,96 @@
+/* Kilo Takibi — Türkçe */
+
+"app.name" = "Kilo Takibi";
+"language.system" = "Sistem";
+"credits.developedBy" = "Geliştiren: %@";
+
+/* Menüler */
+"menu.about" = "Kilo Takibi Hakkında";
+"menu.language" = "Dil";
+"menu.import" = "İçe Aktar…";
+"menu.exportPDF" = "PDF Rapor Olarak Dışa Aktar…";
+"menu.exportCSV" = "CSV Olarak Dışa Aktar…";
+"menu.exportJSON" = "JSON Olarak Dışa Aktar…";
+"menu.showData" = "Veri Klasörünü Göster";
+
+/* Ana pencere */
+"hero.latest" = "%@ • son ölçüm";
+"hero.noEntries" = "Henüz kayıt yok";
+"delta.previous" = "önceki";
+"delta.start" = "başlangıç";
+"delta.goal" = "hedef";
+"entry.placeholder" = "Kilo, örn. 88,4";
+"entry.save" = "Kaydet";
+"entry.hint" = "Kiloyu yaz, Enter'a bas. Aynı tarihe tekrar girersen üzerine yazar.";
+"entry.undo" = "Geri al";
+"error.invalidWeight" = "Geçerli bir kilo gir (30–400).";
+"chart.title" = "Eğilim";
+"chart.empty" = "Kayıt ekleyince grafik burada";
+"chart.goal" = "hedef %@";
+"range.days" = "%dg";
+"range.all" = "Tümü";
+"stat.lowest" = "En düşük";
+"stat.week" = "7 gün";
+"stat.total" = "Toplam";
+"stat.toGoal" = "Hedefe";
+"goal.label" = "Hedef";
+"goal.reached" = "Hedefe ulaşıldı 🎉";
+"goal.left" = "kalan %@ kg";
+"list.title" = "Kayıtlar";
+"list.import" = "İçe aktar…";
+"list.importHelp" = "JSON ya da CSV dosyasındaki kayıtları ekler";
+"list.export" = "Dışa aktar";
+"list.exportPDF" = "PDF rapor…";
+"list.empty" = "Henüz kayıt yok. Yukarıdan ilk kiloyu ekle.";
+"row.delete" = "Sil";
+"footer.local" = "Veriler yalnızca bu Mac'te saklanır · her gün otomatik yedek alınır";
+"footer.demo" = "Demo modu · örnek veriler, hiçbir şey kaydedilmez";
+
+/* Durum mesajları */
+"status.added" = "%1$@ eklendi → %2$@ kg";
+"status.updated" = "%1$@ güncellendi → %2$@ kg";
+"status.deleted" = "%1$@ (%2$@ kg) silindi.";
+"status.restored" = "%@ geri alındı.";
+"status.goalRange" = "Hedef 30–400 kg arasında olmalı.";
+"status.goalSaved" = "Hedef %@ kg olarak kaydedildi.";
+"status.readFailed" = "Dosya okunamadı.";
+"status.noValidRows" = "Dosyada geçerli kayıt bulunamadı.";
+"status.imported" = "İçe aktarıldı: %1$d yeni, %2$d güncellenen, %3$d aynı kayıt";
+"status.importedBad" = ", %d geçersiz satır atlandı";
+"status.importedGoal" = " · hedef %@ kg";
+"status.exported" = "Dışa aktarıldı: %@";
+"status.exportFailed" = "Dışa aktarılamadı: %@";
+"status.pdfSaved" = "PDF rapor kaydedildi: %@";
+"status.pdfFailed" = "PDF oluşturulamadı: %@";
+"status.saveFailed" = "Kaydedilemedi: %@";
+"status.restoredFromBackup" = "Veri dosyası okunamadı; en son sağlam yedekten yüklendi.";
+"status.noBackup" = "Veri dosyası okunamadı ve sağlam yedek bulunamadı.";
+"import.panelMessage" = "İçe aktarmak için bir JSON ya da CSV dosyası seç";
+"export.fileBase" = "kilo_takibi";
+"export.reportBase" = "kilo_takibi_raporu";
+
+/* PDF rapor */
+"pdf.title" = "Kilo Takibi Raporu";
+"pdf.continued" = "Kilo Takibi Raporu · kayıtlar (devam)";
+"pdf.entries" = "Kayıtlar";
+"pdf.created" = "Oluşturulma: %@";
+"pdf.count.one" = "%d kayıt";
+"pdf.count.other" = "%d kayıt";
+"pdf.latest" = "Son ölçüm";
+"pdf.start" = "Başlangıç";
+"pdf.totalChange" = "Toplam değişim";
+"pdf.average" = "Ortalama";
+"pdf.lowest" = "En düşük";
+"pdf.highest" = "En yüksek";
+"pdf.goal" = "Hedef";
+"pdf.toGoal" = "Hedefe kalan";
+"pdf.reached" = "ulaşıldı";
+"pdf.trendAll" = "Eğilim · tüm dönem";
+"pdf.noEntries" = "Kayıt yok";
+"pdf.colDate" = "Tarih";
+"pdf.colDay" = "Gün";
+"pdf.colWeight" = "Kilo (kg)";
+"pdf.colChange" = "Değişim";
+"pdf.footer" = "Kilo Takibi · veriler yalnızca bu Mac'te saklanır";
+"pdf.page" = "Sayfa %1$d / %2$d";
+"pdf.error" = "PDF dosyası oluşturulamadı.";

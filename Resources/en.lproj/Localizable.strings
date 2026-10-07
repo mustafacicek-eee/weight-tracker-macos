@@ -1,0 +1,96 @@
+/* Weight Tracker — English */
+
+"app.name" = "Weight Tracker";
+"language.system" = "System";
+"credits.developedBy" = "Developed by %@";
+
+/* Menus */
+"menu.about" = "About Weight Tracker";
+"menu.language" = "Language";
+"menu.import" = "Import…";
+"menu.exportPDF" = "Export PDF Report…";
+"menu.exportCSV" = "Export as CSV…";
+"menu.exportJSON" = "Export as JSON…";
+"menu.showData" = "Show Data Folder";
+
+/* Main window */
+"hero.latest" = "%@ • latest";
+"hero.noEntries" = "No entries yet";
+"delta.previous" = "previous";
+"delta.start" = "start";
+"delta.goal" = "goal";
+"entry.placeholder" = "Weight, e.g. 88.4";
+"entry.save" = "Save";
+"entry.hint" = "Type your weight and press Enter. Saving the same date again replaces it.";
+"entry.undo" = "Undo";
+"error.invalidWeight" = "Enter a valid weight (30–400).";
+"chart.title" = "Trend";
+"chart.empty" = "Your chart appears here once you add entries";
+"chart.goal" = "goal %@";
+"range.days" = "%dd";
+"range.all" = "All";
+"stat.lowest" = "Lowest";
+"stat.week" = "7 days";
+"stat.total" = "Total";
+"stat.toGoal" = "To goal";
+"goal.label" = "Goal";
+"goal.reached" = "Goal reached 🎉";
+"goal.left" = "%@ kg to go";
+"list.title" = "Entries";
+"list.import" = "Import…";
+"list.importHelp" = "Adds the entries from a JSON or CSV file";
+"list.export" = "Export";
+"list.exportPDF" = "PDF report…";
+"list.empty" = "No entries yet. Add your first weight above.";
+"row.delete" = "Delete";
+"footer.local" = "Your data is stored only on this Mac · backed up automatically every day";
+"footer.demo" = "Demo mode · sample data, nothing is saved";
+
+/* Status messages */
+"status.added" = "%1$@ added → %2$@ kg";
+"status.updated" = "%1$@ updated → %2$@ kg";
+"status.deleted" = "%1$@ (%2$@ kg) deleted.";
+"status.restored" = "%@ restored.";
+"status.goalRange" = "The goal must be between 30 and 400 kg.";
+"status.goalSaved" = "Goal saved: %@ kg.";
+"status.readFailed" = "The file couldn't be read.";
+"status.noValidRows" = "No valid entries were found in the file.";
+"status.imported" = "Imported: %1$d new, %2$d updated, %3$d unchanged";
+"status.importedBad" = ", %d invalid rows skipped";
+"status.importedGoal" = " · goal %@ kg";
+"status.exported" = "Exported: %@";
+"status.exportFailed" = "Couldn't export: %@";
+"status.pdfSaved" = "PDF report saved: %@";
+"status.pdfFailed" = "Couldn't create the PDF: %@";
+"status.saveFailed" = "Couldn't save: %@";
+"status.restoredFromBackup" = "The data file couldn't be read; loaded the latest good backup.";
+"status.noBackup" = "The data file couldn't be read and no good backup was found.";
+"import.panelMessage" = "Choose a JSON or CSV file to import";
+"export.fileBase" = "weight_tracker";
+"export.reportBase" = "weight_report";
+
+/* PDF report */
+"pdf.title" = "Weight Report";
+"pdf.continued" = "Weight Report · entries (continued)";
+"pdf.entries" = "Entries";
+"pdf.created" = "Created: %@";
+"pdf.count.one" = "%d entry";
+"pdf.count.other" = "%d entries";
+"pdf.latest" = "Latest";
+"pdf.start" = "Start";
+"pdf.totalChange" = "Total change";
+"pdf.average" = "Average";
+"pdf.lowest" = "Lowest";
+"pdf.highest" = "Highest";
+"pdf.goal" = "Goal";
+"pdf.toGoal" = "To goal";
+"pdf.reached" = "reached";
+"pdf.trendAll" = "Trend · all time";
+"pdf.noEntries" = "No entries";
+"pdf.colDate" = "Date";
+"pdf.colDay" = "Day";
+"pdf.colWeight" = "Weight (kg)";
+"pdf.colChange" = "Change";
+"pdf.footer" = "Weight Tracker · your data is stored only on this Mac";
+"pdf.page" = "Page %1$d / %2$d";
+"pdf.error" = "The PDF file couldn't be created.";
